@@ -1,13 +1,23 @@
-var h1Loop= document.getElementById('headlineLoop')
-for (var i=0; i<10; i++){
-    var newHeadline = document.createElement("li")
-    newHeadline.textContent="This is my headline loop!"
-    newHeadline.style.color="blue"
-    newHeadline.style.fontFamily="sans-serif"
-    h1Loop.append(newHeadline)
-}
+var x=document.createElement('H1');
+x.setAttribute("id", "greeting")
+document.body.appendChild(x)
 
-var assignmentNames = [
+
+var h1Loop=document.getElementById('greeting');
+for (var i=0; i<10; i++){
+    var newLoop = document.createElement("h1")
+    newLoop.textContent="Hello World"
+    newLoop.style.color="purple"
+    newLoop.style.fontFamily="sans-serif"
+    h1Loop.append(newLoop)}
+
+    
+var z=document.createElement('ul');
+z.setAttribute("id", "assignmentNames")
+document.body.appendChild(z)
+
+
+var names=[
     "Steve",
     "Larry",
     "Joe",
@@ -18,9 +28,8 @@ var assignmentNames = [
     "Emily"
 ]
 
-var arrayLoop= document.getElementById('assignment')
-for (var i=0; i<assignmentNames.length; i++){
+var arrayLoop=document.getElementById("assignmentNames")
+for (var i=0; i<names.length; i++){
     var newArray = document.createElement("li")
-    newArray.textContent=assignmentNames[i]
-    arrayLoop.append(newArray)
-}
+    newArray.textContent=names[i];
+    arrayLoop.append(newArray)}
