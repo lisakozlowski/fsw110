@@ -13,7 +13,7 @@ for (var i=0; i<5; i++){
     newLoop.style.fontWeight="lighter"
     newLoop.style.fontFamily="sans-serif"
     newLoop.style.color="cornflowerblue"
+    newLoop.classList.add('border')
     h2Loop.append(newLoop)
 }
 
-h2Loop.classList.add('border')
