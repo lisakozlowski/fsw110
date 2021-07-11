@@ -33,7 +33,7 @@ var r = document.createElement("reset")
     r.setAttribute('value', "reset")
 
 function submitFunction(){
-    alert("Thank you for your submission!");
+    alert(FN.value += LN.value += zip.value);
 }
 
 
