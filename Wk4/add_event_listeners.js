@@ -14,17 +14,17 @@ window.addEventListener("scroll", function(){
 })
 
 //window.onkeydown = function (b) {
-  //  var code = 66 ? 66 : 66;
-  //  if (code === 66) { 
-   //  d.style.backgroundColor="blue";
-   // }
+//  var code = 66 ? 66 : 66;
+//    if (code === 66) { 
+ //    d.style.backgroundColor="blue";
+ //   }
 //}
 
 //window.onkeydown = function (r) {
-  //  var code = 82 ? 82 : 82;
+ //   var code = 82 ? 82 : 82;
  //   if (code === 82) { 
-  //   d.style.backgroundColor="red";
-  //  }
+ //    d.style.backgroundColor="red";
+ //   }
 //}
 
  //window.onkeypress = function (g) {
