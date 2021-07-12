@@ -24,17 +24,17 @@ var zip = document.createElement("input");
     zip.setAttribute("name", "Zipcode");
     zip.setAttribute("placeholder", "Zip Code");
 
-//var s = document.createElement("input");
-  //  s.setAttribute("type", "submit");
-    //s.setAttribute("value", "Submit");
-
 var r = document.createElement("reset")
     r.setAttribute('type', "reset");
     r.setAttribute('value', "reset")
 
 function submitFunction(){
     alert(FN.value += LN.value += zip.value);
+
 }
+var r = document.createElement("reset")
+    r.setAttribute('type', "reset");
+    r.setAttribute('value', "reset")
 
 
 var br3 = document.createElement("br"); 
@@ -45,7 +45,6 @@ var br3 = document.createElement("br");
     form.appendChild(br2);
     form.appendChild(zip);
     form.appendChild(br3);
-    //form.appendChild(s); 
     form.appendChild(r)
     document.getElementsByTagName("body")[0].appendChild(form);
 
