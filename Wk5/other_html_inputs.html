@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submitting Events</title>
+</head>
+<body style="background-color: rgb(10, 77, 32)">
+    <h1 style="font-family:Verdana, Geneva, Tahoma, sans-serif">*Questionnaire*</h1>
+
+    <form action="#" name='myForm'
+        style="font-family:Verdana, Geneva, Tahoma, sans-serif">
+          <p style="color: pink">
+              <label for="firstname">First Name: <input type="text" placeholder="First Name" id="firstname" name="firstname" required></label>
+          </p>
+          <p style="color: rgb(241, 83, 241)">
+              <label for="lastname">Last Name: <input type="text" placeholder="Last Name" id="lastname" name="lastname" required></label>
+          </p>
+          <p style="color:rgb(98, 98, 207)">
+              <label for="age">Age: <input type="text" placeholder="Age" id="userage" name="userage" required></label>
+          </p>
+          <p style="color: pink">
+              <label for="haveshopped">Have you shopped with us before?</label><br>
+               Yes: <input type="radio" id="decision" name="decision" value="Yes"/>
+               No: <input type="radio" id="decision" name="decision" value="No"/>
+          </p>
+          <p style="color: rgb(241, 83, 241)">
+              <label for="howlikely">How likely are you to shop with us again?</label><br>
+              <select name="dropdown" name="dropdown">
+                  <option value="Very Likely" selected>Very Likely</option>
+                  <option value="Somewhat Likely">Somewhat Likely</option>
+                  <option value="Not Likely">Not Likely</option>
+              </select>
+            </p>
+          <p style="color:rgb(98, 98, 207)">
+              <label for="restrictions" name="restrictions">Do you have any dietary restrictions?</label><br>
+            Gluten free: <input type="checkbox" name="glutenfree" value="Gluten free"><br>
+            Keto: <input type="checkbox" name="keto" value="Keto"><br>
+            Vegan: <input type="checkbox" name="vegan" value="Vegan">
+          </p>
+        <button onclick="submitFunction()" id="button">Submit</button>
+    </form>
+    <script src="other_html_inputs.js"></script> 
+</body>
+</html>
