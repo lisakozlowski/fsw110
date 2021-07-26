@@ -1,0 +1,36 @@
+body{
+    margin: 0 auto;
+    max-width: 768px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(110, 187, 183);
+}
+
+h1 {
+    color: rgb(49, 6, 49);
+    font-family: 'Shadows Into Light', serif;
+    font-size: 30px;
+    padding-top:10 px;
+    text-align:left;
+  }
+
+div{
+    margin: 15px;
+    border-radius: 5px;
+}
+
+
+button{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    border-radius: 15px;
+    margin: 10px;
+    
+}
+
+button:hover {
+    color: blue;
+}
